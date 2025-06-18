@@ -1,0 +1,9 @@
+create database details;
+use details;
+create table class (id int,name varchar(60),mark int,departement varchar(100),section varchar(10));
+insert into class values(1,"Kaviya",80,"BCA","II-C"),(2,"Ashwini",60,"BCA","II-C"),
+(3,"Kalpana",89,"BCA","II-C"),(4,"Kishore",50,"BSc CS","II-C"),(5,"Dharsini",45,"BSc CS","II-C");
+update student set name="arun" where id=5;
+select name from student where mark<60;
+select departement from student where mark<60;
+select section from student where mark<60;
